@@ -14,7 +14,7 @@
 //Types of CSS:-
 
 // 1. Inline CSS:- Inline styles are styles that are written directly in the tag on the document. 
-//		   Inline styles affect only the tag they are applied to.
+//  	   Inline styles affect only the tag they are applied to.
 
 //<div id="demo" style="text-align:center; text-decoration:underline; font-family:Arial;"> This is a demo of inline CSS. </div>
 
@@ -96,33 +96,77 @@
 // CSS BACKGROUND:- 
 // CSS background properties are used to define the background effects of an element.
 // CSS properties used for background effects:
-// 1.    background-color
-// 2.    background-image
-// 3.    background-repeat
+// 1.   background-color
+// 2.   background-image
+// 3.   background-repeat
 // 4.   background-attachment
 // 5.   background-position
 
 
+//CSS Links:-
+//Links can be styled with any CSS property (e.g. color, font-family, background, etc.).
+
+// 1.    a:link - a normal, unvisited link
+// 2.    a:visited - a link the user has visited
+// 3.    a:hover - a link when the user mouses over it
+// 4.    a:active - a link the moment it is clicked
+// For example:-
+//		a:link {text-decoration:none;}
+//		a:visited {text-decoration:none;}
+//		a:hover {text-decoration:underline;}
+//		a:active {text-decoration:underline;}
 
 
+//CSS Lists:-
+//	In HTML, there are two types of lists:
+//		1. unordered lists - the list items are marked with bullets
+//		2. ordered lists - the list items are marked with numbers or letters
+//With CSS, lists can be styled further, and images can be used as the list item marker.
+
+//For example
+//		ul.a {list-style-type: circle;}
+//		ul.b {list-style-type: square;}
+//		ol.c {list-style-type: upper-roman;}
+//		ol.d {list-style-type: lower-alpha;}
 
 
+//The CSS Box Model:-
+// All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+// The CSS box model is essentially a box that wraps around HTML elements, and it consists of: 
+//	a) margins, 
+//	b) borders, 
+//	c) padding, and 
+//	d) the actual content.
 
 
+//CSS Display and Visibility:- 
+//	display:none||inline||block;
+//	visibility:hidden;
+
+// Note:- IMP Difference between both of them
+// visibility:hidden :- hides an element, but it will still take up the same space as before. 
+// 			The element will be hidden, but still affect the layout.
+// display:none  :- hides an element, and it will not take up any space. The element will be hidden, 
+//		and the page will be displayed as if the element is not there.
 
 
+// CSS Positioning:-
+// The CSS positioning properties allow you to position an element. It can also place an element behind another, 
+// and specify what should happen when an element's content is too big.
 
+// Elements can be positioned using the top, bottom, left, and right properties. However, these properties will not 
+// work unless the position property is set first. They also work differently depending on the positioning method.
 
+// There are four different positioning methods:-
+// 	1. Static Positioning :- HTML elements are positioned static by default. A static positioned element is always
+//				positioned according to the normal flow of the page. Static positioned elements are not affected by 
+//				the top, bottom, left, and right properties.
 
+//	2. Fixed Positioning :- An element with fixed position is positioned relative to the browser window.
 
+// 	3. Relative Positioning :- A relative positioned element is positioned relative to its normal position.
 
-
-
-
-
-
-
-
-
+//	4. Absolute Positioning :- An absolute position element is positioned relative to the first parent element that has a position other than static. 
+//				If no such element is found, the containing block is <html>
 
 
